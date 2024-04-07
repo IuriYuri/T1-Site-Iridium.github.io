@@ -1,4 +1,3 @@
-
 header{
     background-image: url(images/banner.jpg);
     background-size: cover;
@@ -6,35 +5,45 @@ header{
     padding: 15em;
     text-transform: uppercase;
 }
+
 footer{
     background-color: rgb(27,27,27);
     color: #fff;
 }
+
 a{
     text-decoration: none;
     color: #fff;
 }
+
 header a{
     color: #fff;
 }
+
 footer a{
     color: rgb(122, 122, 122);
 }
+
 .paddingVertical, section, footer{
     padding: 2.5%;
 }
+
 .paddingBaixo{
     padding-bottom: 5%;
 }
+
 h1{
     font-size: 350%;
 }
+
 h2{
     font-size: 200%;
 }
+
 h3{
     font-size: 125% ;
 }
+
 small{
     font-size: 80%;
 }
@@ -43,50 +52,56 @@ h1, h2, h3{
     text-transform: uppercase;
     font-weight: bold;
 }
+
 .fundoBranco{
     background-color: rgb(255,255,255);
 }
+
 .fundoCinza{
     background-color: rgb(244, 244, 244);
 }
+
 .letrasCinzas{
     color: rgb(148, 148, 148);
 }
+
 .letrasBrancas{
     color: #fff;
 }
+
 .fazerLinha{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 5em;
 }
-.aumentaGap{
-    gap: 10em;
-}
 
 .centralizar{
     text-align: center;   
 }
+
 .concerto {
     text-align: left;
 }
-.paddingG{
+
+.paddingImagem7{
     padding-top: 3%;
     padding-bottom: 2%;
 }
+
 .divisor {
     border: none;
     border-top: 1px solid rgb(187, 187, 187);
     margin: 0.5em 0;    
 }
+
 .botao {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 75%;
-    display: inline-block; /* Garante que a área se ajuste ao conteúdo */
-    padding: 1.2em; /* Espaçamento interno */
-    border-radius: 5em; /* Raio dos cantos */
-    background-color:rgb(216, 82, 60); /* Cor de fundo */
-    text-decoration: none; /* Remove o sublinhado do link */
+    display: inline-block;
+    padding: 1.2em;
+    border-radius: 5em;
+    background-color:rgb(216, 82, 60);
+    text-decoration: none;
 }
