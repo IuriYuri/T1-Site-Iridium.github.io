@@ -10,13 +10,14 @@ footer{
     background-color: rgb(27,27,27);
     color: #fff;
 }
+a{
+    text-decoration: none;
+}
 header a{
     color: #fff;
-    text-decoration: none;
 }
 footer a{
     color: rgb(122, 122, 122);
-    text-decoration: none;
 }
 .paddingVertical, section, footer{
     padding: 2.5%;
@@ -59,6 +60,9 @@ h1, h2, h3{
     justify-content: center;
     gap: 5em;
 }
+.aumentaGap{
+    gap: 10em;
+}
 
 .centralizar{
     text-align: center;   
@@ -66,9 +70,13 @@ h1, h2, h3{
 .concerto {
     text-align: left;
 }
-
+.paddingG{
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
 .divisor {
     border: none;
     border-top: 1px solid rgb(187, 187, 187);
     margin: 0.5em 0;
+    
 }
