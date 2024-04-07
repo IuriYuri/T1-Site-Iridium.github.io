@@ -21,11 +21,17 @@ footer a{
 .paddingVertical, section, footer{
     padding: 2.5%;
 }
+.paddingBaixo{
+    padding-bottom: 5%;
+}
 h1{
-    font-size: 300%;
+    font-size: 350%;
 }
 h2{
     font-size: 200%;
+}
+h3{
+    font-size: 125% ;
 }
 small{
     font-size: 80%;
@@ -53,6 +59,7 @@ h1, h2, h3{
     justify-content: center;
     gap: 5em;
 }
+
 .centralizar{
     text-align: center;   
 }
