@@ -1,0 +1,67 @@
+
+header{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 15em;
+    text-transform: uppercase;
+}
+footer{
+    background-color: rgb(27,27,27);
+    color: #fff;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+footer a{
+    color: rgb(122, 122, 122);
+    text-decoration: none;
+}
+.paddingVertical, section, footer{
+    padding: 2.5%;
+}
+h1{
+    font-size: 300%;
+}
+h2{
+    font-size: 200%;
+}
+small{
+    font-size: 80%;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.fundoBranco{
+    background-color: rgb(255,255,255);
+}
+.fundoCinza{
+    background-color: rgb(244, 244, 244);
+}
+.letrasCinzas{
+    color: rgb(148, 148, 148);
+}
+.letrasBrancas{
+    color: #fff;
+}
+.fazerLinha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+}
+.centralizar{
+    text-align: center;   
+}
+.concerto {
+    text-align: left;
+}
+
+.divisor {
+    border: none;
+    border-top: 1px solid rgb(187, 187, 187);
+    margin: 0.5em 0;
+}
