@@ -12,6 +12,7 @@ footer{
 }
 a{
     text-decoration: none;
+    color: #fff;
 }
 header a{
     color: #fff;
@@ -77,6 +78,15 @@ h1, h2, h3{
 .divisor {
     border: none;
     border-top: 1px solid rgb(187, 187, 187);
-    margin: 0.5em 0;
-    
+    margin: 0.5em 0;    
+}
+.botao {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 75%;
+    display: inline-block; /* Garante que a área se ajuste ao conteúdo */
+    padding: 1.2em; /* Espaçamento interno */
+    border-radius: 5em; /* Raio dos cantos */
+    background-color:rgb(216, 82, 60); /* Cor de fundo */
+    text-decoration: none; /* Remove o sublinhado do link */
 }
